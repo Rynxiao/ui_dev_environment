@@ -1,0 +1,34 @@
+{
+  "name": "react-styleguidist",
+  "version": "1.0.0",
+  "description": "react styleguidist",
+  "main": "index.js",
+  "author": "ryn",
+  "license": "MIT",
+  "scripts": {
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "react-styleguidist": "^9.1.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2"
+  },
+  "dependencies": {
+    "core-js": "2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "browserslist": [
+    ">1%",
+    "last 1 version",
+    "Firefox ESR",
+    "not dead"
+  ]
+}

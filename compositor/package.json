@@ -1,0 +1,18 @@
+{
+  "name": "compositor",
+  "version": "1.0.0",
+  "description": "compositor",
+  "main": "index.js",
+  "author": "ryn",
+  "license": "MIT",
+  "scripts": {
+    "examples": "kit examples",
+    "examples:library": "kit examples --mode library"
+  },
+  "dependencies": {
+    "@compositor/kit": "^1.0.47",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
