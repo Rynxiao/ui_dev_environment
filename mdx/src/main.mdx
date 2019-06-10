@@ -1,0 +1,45 @@
+import Button from './components/Button';
+import Text from './components/Text';
+
+# Button with text
+
+```js
+<Button onClick={() => console.log('text')}>Hello Button</Button>
+```
+
+<Button onClick={() => console.log('text')}>Hello Button</Button>
+
+## Button with emoji
+
+```js live=true
+<Button onClick={() => console.log('emoji')}>
+  <span role="img" aria-label="so cool">
+    😀 😎 👍 💯
+  </span>
+</Button>
+```
+
+## Text without children
+
+```js
+<Text style={{ border: 'none', cursor: 'default', }} />
+```
+
+<Text style={{ border: 'none', cursor: 'default', }} />
+
+## Text with emoji
+
+```js
+<Text>
+  <span role="img" aria-label="so cool">
+    😀 😎 👍 💯
+  </span>
+</Text>
+```
+
+<Text>
+  <span role="img" aria-label="so cool">
+    😀 😎 👍 💯
+  </span>
+</Text>
+
