@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   webpackConfig: {
     module: {
@@ -15,6 +17,33 @@ module.exports = {
         },
       ],
     },
+  },
+  theme: {
+    color: {
+      link: 'firebrick',
+      linkHover: 'salmon'
+    },
+    fontFamily: {
+      base: '"Comic Sans MS", "Comic Sans", cursive'
+    }
+  },
+  ribbon: {
+    // Link to open on the ribbon click (required)
+    url: 'https://github.com/Rynxiao/ui_dev_environment',
+    // Text to show on the ribbon (optional)
+    text: 'Fork me on GitHub'
+  },
+  styles: {
+    Logo: {
+      // We're changing the LogoRenderer component
+      logo: {
+        // We're changing the rsg--logo-XX class name inside the component
+        animation: 'blink ease-in-out 300ms infinite'
+      },
+      '@keyframes blink': {
+        to: { opacity: 0 }
+      }
+    }
   },
   sections: [
     {
