@@ -267,7 +267,7 @@ stories.add('with a button', () => (
 - [spec](https://github.com/mthuret/storybook-addon-specifications)
 - [react-live-edit](https://github.com/vertexbz/storybook-addon-react-live-edit)
 
-### 个人观点
+### 写在最后
 
 storybook作为一个组件开发工具来说，整体上手难度以及接入到已有项目中的成本并不是特别高。
 
