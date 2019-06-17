@@ -17,9 +17,9 @@
 | Tools | React/Angular/Vue | 上手程度 | 主题自定义 | 附加功能(插件) | 测试环境 |
 |:----|:----|:----:|:----|:----|:----|
 | [Storybook](https://storybook.js.org/) | ✔️ / ✔️ / ✔️ | 中等 | 简便、颜色变化 | 丰富(源码/viewport/backgrounds...) | 提供了各种测试案例 |
-| [React Styleguidist](https://react-styleguidist.js.org/) | ✔️ / ❌ / ❌ | 简单 | 简便、颜色结构变化 | 无 | [Enzyme](https://github.com/airbnb/enzyme)、[jest](https://jestjs.io/) |
-| [Compositor](https://compositor.io/) | ✔️ / ❌ / ❌ | 简单 | 暂不支持 | 无 | [Enzyme](https://github.com/airbnb/enzyme)、[jest](https://jestjs.io/) |
-| [MDX](https://mdxjs.com/) | ✔️ / ❌ / ✔️(Beta) | 简单 | 简便、可以完全自定义 | 一般(remark/rehype  ) | [Enzyme](https://github.com/airbnb/enzyme)、[jest](https://jestjs.io/) |
+| [React Styleguidist](https://react-styleguidist.js.org/) | ✔️ / X / X | 简单 | 简便、颜色结构变化 | 无 | [Enzyme](https://github.com/airbnb/enzyme)、[jest](https://jestjs.io/) |
+| [Compositor](https://compositor.io/) | ✔️ / X / X | 简单 | 暂不支持 | 无 | [Enzyme](https://github.com/airbnb/enzyme)、[jest](https://jestjs.io/) |
+| [MDX](https://mdxjs.com/) | ✔️ / X / ✔️(Beta) | 简单 | 简便、可以完全自定义 | 一般(remark/rehype  ) | [Enzyme](https://github.com/airbnb/enzyme)、[jest](https://jestjs.io/) |
 
 ### StoryBook
 
